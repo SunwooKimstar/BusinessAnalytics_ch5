@@ -69,13 +69,13 @@ View House Numbers (SVHN) [download](http://ufldl.stanford.edu/housenumbers/)
 ------------------------------
 - **SVHN 데이터셋**
 |**epsilon**|2.0|2.5|3.0|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 |**accuracy**|0.8770|0.8635|0.8883|
 
 epsilon값의 변화에 따른 test accuracy는 다음과 같았습니다. epsilon값이 3.0으로 설정되었을 때, 가장 test accuracy가 높게 책정되었다는 결과를 확인할 수 있었습니다. 이는 epsilon값이 커지면 perturbation이 좀더 많이 적용된 예시들로 학습이 진행되면서 input에 perturbation이 추가되어도 model의 output에는 큰 변화가 생기지 않는, 즉, 강건한 model을 갖게 될 수 있다는 점을 의미합니다. 위의 경우, perturbation은 adversarial한 방향에 있게 된다는 점을 한번 더 짚고 넘어가면 좋을 것 같습니다.
 
 - epsilon = 2.0
-<img src="./imgs/ba5/svhn_2.0.png">
+<img src="./imgs/ba5/svh_2.0.png">
 
 - epsilon = 2.5
 <img src="./imgs/ba5/svhn_2.5.png">
