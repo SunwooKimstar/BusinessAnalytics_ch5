@@ -28,11 +28,8 @@
 - adversarial: loss의 값을 최대한 해치는 방향으로 변형 (KL divergence 이용)
 
 - virtual adversarial training : label 정보를 사용하지 않아 semi-supervised learning에 적용이 가능함
-- regularization technique 이용 : overfitting 방지, unseen example들에 대해 잘 generaliza할 수 있게 함
+- regularization technique 이용 : overfitting 방지, unseen example들에 대해 잘 generalize할 수 있게 함
 
-- adversarial training과의 차이점 : label을 이용하여 adversarial perturbation 생성
-- 입력 데이터는 x, 정답 라벨은 y, x*의 경우 입력 데이터 전체 의미
-LDS(x^(n), \theta)
 
 - **절차**
 1. input data point x에서 시작
