@@ -56,7 +56,7 @@ View House Numbers (SVHN) [download](http://ufldl.stanford.edu/housenumbers/)
 
 ### 📊 Result & Analysis
 ------------------------------
-- **SVHN 데이터셋**
+### **SVHN 데이터셋**
 
 |**epsilon**|2.0|2.5|3.0|
 |:--:|:--:|:--:|:--:|
@@ -76,7 +76,7 @@ epsilon값의 변화에 따른 test accuracy는 다음과 같았습니다. epsil
 <img src="./imgs/ba5/svhn_3.0.png">
 
 
-- **Cifar10 데이터셋**
+### **Cifar10 데이터셋**
 
 |**labels**|1000|2000|4000|
 |:--:|:--:|:--:|:--:|
