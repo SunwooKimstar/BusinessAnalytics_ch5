@@ -15,6 +15,7 @@
 
 ## **Virtual Adversarial Training(VAT)**
 <img src="./imgs/ba5/vat.jpg">
+
 - 논문 : Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning [paper](https://arxiv.org/abs/1704.03976)
 
 > 기존 adversarial training에서는 조금의 변화로 모델의 예측을 크게 바꿀 수 있는 방향을 적대적 방향으로 
@@ -38,8 +39,6 @@ LDS(x^(n), \theta)
 2. 작은 perturbation r을 이용하여 x를 변형시킴 + transform된 데이터 포인트는 T(x) = x + r
 3. perturbation r (adversarial 방향에 있어야) perturb된 input은 perturb되지않은 input의 output과 달라야함 (2개의 output distribution 사이의 KL divergence는 최대화 되어야함,  r의 l2 normd은 작아야 함)
 4. adversarial perturbation과 transform된 input을 찾은 이후, kl divergence가 최소화되는 방향으로 모델의 weight을 update 시켜주고, 모델을 각기 다른 perturbation에 대해 강건하게 만들어줌
-
-- random perturbation training : vat에서 power iteration method를 쓰지 않는 열화판으로 무작위 방향으로 사용하는 방식
 
 - vat는 가상의 적대적 방향에 해당하는 데이터에만 라벨을 할당하는 반면, RPT는 근방의 모든 데이터에게 동일한 라벨을 부여하므로 비효율적
 
