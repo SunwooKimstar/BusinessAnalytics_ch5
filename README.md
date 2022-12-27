@@ -68,12 +68,14 @@ View House Numbers (SVHN) [download](http://ufldl.stanford.edu/housenumbers/)
 ### 📊 Result & Analysis
 ------------------------------
 - SVHN 데이터셋
+
 |**epsilon**|2.0|2.5|3.0|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 |**accuracy**|0.8770|0.8635|0.8883|
 
 
 - Cifar10 데이터셋
+
 |**labels**|1000|2000|4000|
 |:--:|:--:|:--:|:--:|
 |**accuracy**|0.5148|0.5456|0.5745|
