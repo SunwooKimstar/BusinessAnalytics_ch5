@@ -43,7 +43,7 @@ View House Numbers (SVHN) [download](http://ufldl.stanford.edu/housenumbers/)
 
 * Cifar10 [download](https://www.cs.toronto.edu/~kriz/cifar.html)
     - 10개의 class로 구성
-    - 32 x 42 크기의 이미지 60000장으로 구성
+    - 32 x 32 크기의 이미지 60000장으로 구성
 
 
 ### 🖍️ Experiments
